@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Student, Event, Registration
-from .serializers import StudentSerializer, EventSerializer, RegistrationSerializer
+from .models import Student, Event, Registration, Speaker
+from .serializers import StudentSerializer, EventSerializer, RegistrationSerializer, SpeakerSerializer 
 
 class StudentViewSet(viewsets.ModelViewSet):
     queryset = Student.objects.all()
@@ -14,4 +14,9 @@ class EventViewSet(viewsets.ModelViewSet):
 class RegistrationViewSet(viewsets.ModelViewSet):
     queryset = Registration.objects.all()
     serializer_class = RegistrationSerializer
+
+class SpeakerViewSet(viewsets.ModelViewSet):
+    queryset = Speaker.objects.all()
+    serializer_class = SpeakerSerializer
+
 
