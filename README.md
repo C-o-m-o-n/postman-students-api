@@ -35,7 +35,7 @@ This API provides a comprehensive interface for managing events and speakers ass
 1. Clone the repository:
 
 ```
-git clone [https://github.com/C-o-m-o-n/postman-students-api](https://github.com/C-o-m-o-n/postman-students-api)
+git clone https://github.com/C-o-m-o-n/postman-students-api
 ```
 
 2. Navigate to the project directory:
