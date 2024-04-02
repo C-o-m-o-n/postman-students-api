@@ -1,5 +1,5 @@
 
-## Postman Student Leader Program (LeaderHub) API
+## Postman Student Leader Program (LeadersHub) API
 
 This API provides a comprehensive interface for managing events and speakers associated with the Postman Student Leader program. It allows authorized users to create, retrieve, update, and delete events and speaker information.
 
@@ -35,7 +35,7 @@ This API provides a comprehensive interface for managing events and speakers ass
 1. Clone the repository:
 
 ```
-git clone [https://github.com/C-o-m-o-n/postman-students-api](https://github.com/C-o-m-o-n/postman-students-api)
+git clone https://github.com/C-o-m-o-n/postman-students-api
 ```
 
 2. Navigate to the project directory:
@@ -76,6 +76,7 @@ python manage.py secretkey generate
 ```
 python manage.py runserver
 ```
+*** Kindly check out all the branches for different features ***
 
 ### Usage
 

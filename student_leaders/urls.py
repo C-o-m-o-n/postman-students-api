@@ -14,7 +14,7 @@ schema_view = get_schema_view(
       description="""
       The Postman Student Leader Program API empowers Student Leaders to efficiently manage events and speaker data. It provides a comprehensive interface for CRUD operations (Create, Read, Update, Delete) on events and speakers. Authorized users can create informative event listings, associate speakers with their expertise, and even manage speaker social media profiles. This API streamlines event organization and facilitates the creation of engaging experiences for student leaders.
       """,
-      terms_of_service="http://127.0.0.1/terms/",
+      terms_of_service="http://127.0.0.1:8000/terms/",
       contact=openapi.Contact(email="comon928@gmail.com"),
       license=openapi.License(name="MIT License"),
    ),
