@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'postman_api.wsgi.application'
+WSGI_APPLICATION = 'postman_api.wsgi.app'
 
 
 # Database
